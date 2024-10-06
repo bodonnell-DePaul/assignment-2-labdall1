@@ -21,4 +21,29 @@
     Vivamus nec nisi nec nunc mattis molestie. Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. 
     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. 
     Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. `, dueDate: '2024-04-11' },
+    {
+      title: "Buy groceries",
+      description: "Milk, Bread, Butter, Eggs",
+      dueDate: "2024-10-10"
+    },
+    {
+      title: "Complete homework",
+      description: "Finish CSC-436 Assignment-2",
+      dueDate: "2024-10-08"
+    },
+    {
+      title: "Submit project",
+      description: "Submit report for SE-475",
+      dueDate: "2024-10-12"
+    },
+    {
+      title: "Doctor's appointment",
+      description: "Visit the doctor for a routine check-up",
+      dueDate: "2024-10-15"
+    },
+    {
+      title: "Renew car insurance",
+      description: "Renew the car insurance before it expires",
+      dueDate: "2024-10-20"
+    }
   ];
