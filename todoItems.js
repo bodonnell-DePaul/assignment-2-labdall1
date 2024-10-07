@@ -21,4 +21,24 @@
     Vivamus nec nisi nec nunc mattis molestie. Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. 
     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. 
     Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. `, dueDate: '2024-04-11' },
+    {
+      title: "Buy groceries",
+      description: "Milk, Bread, Butter, Eggs",
+      dueDate: "2024-10-10"
+    },
+    {
+      title: "Complete homework",
+      description: "Finish the math and science assignments",
+      dueDate: "2024-10-08"
+    },
+    {
+      title: "Prepare presentation",
+      description: "Work on slides for the project review meeting",
+      dueDate: "2024-10-12"
+    },
+    {
+      title: "Doctor's appointment",
+      description: "Visit the doctor for a routine check-up",
+      dueDate: "2024-10-15"
+    },
   ];
