@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ListGroupComponent from './ListGroupComponent';
+import FormComponent from './FormComponent';
+import TabComponent from './TabComponent';
+import MainPage from './MainPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ListGroupComponent /> */}
+    {/* <FormComponent/> */}
+    {/* <TabComponent/> */}
+    <MainPage/>
   </React.StrictMode>
 );
 
