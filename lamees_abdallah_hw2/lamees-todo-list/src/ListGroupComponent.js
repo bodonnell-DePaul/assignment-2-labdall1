@@ -26,10 +26,14 @@ function ListGroupComponent({ setActiveKey }) {
             key={index}
             eventKey={index.toString()}
             onClick={() => setActiveKey(index.toString())}
-            variant={getVariant(todo.dueDate)}  // Apply variant based on due date
-            role="tab"  // Add role="tab" for accessibility
+            role="tab"
           >
-            {todo.title}
+            <a
+              href="#"
+              className={`list-group-item-${getVariant(todo.dueDate)}`} // Apply the class to the <a> tag
+            >
+              {todo.title}
+            </a>
           </ListGroup.Item>
         ))}
       </ListGroup>

@@ -33,8 +33,8 @@ function TabComponent({ activeKey }) {
                   key={index}
                   role="tabpanel"
                 >
-                  <h4>{todo.title}</h4>
-
+                  {/* Title removed to avoid multiple instances of "Todo 1" */}
+                  
                   {/* Make description editable */}
                   <p
                     contentEditable

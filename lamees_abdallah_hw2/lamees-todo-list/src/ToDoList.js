@@ -11,7 +11,9 @@ function ToDoList() {
 
   return (
     <Container>
-      <h1>Assignment 2: Lamees's ToDo List</h1>
+      {/* <h1>Assignment 2: Lamees's ToDo List</h1> */}
+      <h1>Assignment 2: ToDo List</h1> 
+      <h2>Lamees Abdallah</h2>
       <br />
       <Row>
         <Col sm={4}>
