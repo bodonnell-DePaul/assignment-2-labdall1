@@ -22,19 +22,21 @@ function ListGroupComponent({ setActiveKey }) {
       {/* Add role="tablist" here */}
       <ListGroup role="tablist">
         {todos.map((todo, index) => (
-          <ListGroup.Item
-            key={index}
-            eventKey={index.toString()}
-            onClick={() => setActiveKey(index.toString())}
-            role="tab"
-          >
-            <a
-              href="#"
-              className={`list-group-item-${getVariant(todo.dueDate)}`} // Apply the class to the <a> tag
-            >
-              {todo.title}
-            </a>
-          </ListGroup.Item>
+         <ListGroup.Item
+         key={index}
+         eventKey={index.toString()}
+         onClick={() => setActiveKey(index.toString())}
+         variant={getVariant(todo.dueDate)}  // Apply variant to ListGroup.Item
+         role="tab"
+         className={`list-group-item-${getVariant(todo.dueDate)}`}  // Apply class for variant
+       >
+         <a 
+           href="#"
+           className={`list-group-item-${getVariant(todo.dueDate)}`} // Also apply the class to <a> tag
+         >
+           {todo.title}
+         </a>
+       </ListGroup.Item>
         ))}
       </ListGroup>
     </div>

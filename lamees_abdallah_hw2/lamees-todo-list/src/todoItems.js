@@ -1,8 +1,8 @@
   export const todos = [
-      { title: 'Todo 1', description: 'Description for Todo 1', dueDate: '2024-10-10' },
-      { title: 'Todo 2', description: 'Description for Todo 2', dueDate: '2024-10-11' },
-      { title: 'Todo 3', description: 'Description for Todo 3', dueDate: '2024-10-12' },
-      { title: 'Todo 4', description: 'Description for Todo 4', dueDate: '2024-10-17' },
+      { title: 'Todo 1', description: 'Buy Groceries. Milk, bread, and eggs', dueDate: '2024-10-10' },
+      { title: 'Todo 2', description: 'Submit CSC 436 HW. Commit and update changes.', dueDate: '2024-10-11' },
+      { title: 'Todo 3', description: 'Complete SE 475. Update wiki , push testing report, write final report and submit group evaluations.', dueDate: '2024-10-12' },
+      { title: 'Todo 4', description: 'Register for winter classes.', dueDate: '2024-10-17' },
     
     // { title: 'Todo 1', description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
