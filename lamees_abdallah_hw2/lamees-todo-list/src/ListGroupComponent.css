@@ -1,0 +1,18 @@
+.list-group-item-danger {
+    background-color: #ff5252 !important; 
+    color: white;
+  }
+  
+  .list-group-item-warning {
+    background-color: #ffe082 !important; 
+  }
+  
+  .list-group-item-success {
+    background-color: #c8e6c9 !important; 
+    color: black;
+  }
+  
+  .list-group-item-primary {
+    background-color: #b3e5fc !important; 
+    color: black;
+  }
